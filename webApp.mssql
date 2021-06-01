@@ -1,0 +1,75 @@
+-- phpMyAdmin SQL Dump
+-- version 5.0.3
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Tempo de geração: 15/02/2021 às 15:57
+-- Versão do servidor: 10.4.14-MariaDB
+-- Versão do PHP: 7.4.11
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Banco de dados: `webApp`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura para tabela `tb_user`
+--
+
+CREATE TABLE `tb_user` (
+  `userID` int(11) NOT NULL,
+  `userPass` varchar(32) NOT NULL,
+  `userName` varchar(30) NOT NULL,
+  `userNick` varchar(20) NOT NULL,
+  `userPhone` varchar(20) DEFAULT NULL,
+  `userEmail` varchar(40) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Despejando dados para a tabela `tb_user`
+--
+
+INSERT INTO `tb_user` (`userID`, `userPass`, `userName`, `userNick`, `userPhone`, `userEmail`) VALUES
+(1, 'e8d95a51f3af4a3b134bf6bb680a213a', 'test', 'Jack Caolho', NULL, 'test@gmail.com'),
+(2, 'dd97813dd40be87559aaefed642c3fbb', 'Igor', 'Dos', NULL, 'igor@gmail.com'),
+(3, 'e8d95a51f3af4a3b134bf6bb680a213a', 'Test', 'test Nick', '0896030235', 'test2@gmail.com'),
+(4, 'e8d95a51f3af4a3b134bf6bb680a213a', 'Fernando', 'Fer', '0896030235', 'fernando@gmail.com'),
+(5, 'e8d95a51f3af4a3b134bf6bb680a213a', 'Tamara', 'Tamara', '999999', 'tamara@gmail.com');
+
+--
+-- Índices para tabelas despejadas
+--
+
+--
+-- Índices de tabela `tb_user`
+--
+ALTER TABLE `tb_user`
+  ADD PRIMARY KEY (`userID`);
+
+--
+-- AUTO_INCREMENT para tabelas despejadas
+--
+
+--
+-- AUTO_INCREMENT de tabela `tb_user`
+--
+ALTER TABLE `tb_user`
+  MODIFY `userID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+

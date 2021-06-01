@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;700&display=swap');
+body {
+    
+    font-family: 'Baloo', cursive;
+    
+}
+
+#title {
+    text-align: center;
+    margin: 40px auto 0 auto;
+}
+div#body-form {
+    /**/background-color: rgba(32, 35, 36,.1);
+    height: 500px;
+    width: auto;
+    margin: 50px auto 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+div#body-form h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+input {
+    display: block;
+    height: 30px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 14pt;
+    padding: 10px 20px;
+    outline: none;
+}
+input[type=submit] {
+    height: 50px;
+    width: 345px;
+    margin: 13px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(85, 210, 241);
+    cursor:pointer;
+}
+.indexOpt {
+    height: 300px;
+    width: 500px;
+    background-color: rgb(214, 224, 233);
+    margin: 0 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: rgb(18, 20, 20);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div#footer{
+    text-align: center;
+    font-size: 16pt;
+    margin-top: 80px;
+    background-color: rgb(85, 210, 241);
+    line-height: 50px;
+}
+
+/* Start Alerts*/
+div#msg-success{
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50,205,50,.3);
+    border: 1px solid rgb(34, 139,34);
+}
+div.msg-error{
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250,128,114,.3);
+    border: 1px solid rgb(165, 42,42);
+}
+
+/* End Alerts*/
+
+
+
+/* Reviews Page*/
+.header h3 {
+    padding:20px;
+}
+h3 a{
+    font-size: 15px;
+}
+
+#privateArea{
+    background-image: url('IMAGES/gray.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+    padding:10pc;
+    text-align: center;
+    
+    /* margin-top: 50px; */
+}
+
+#privateArea h1{
+    font-size: 60px;
+}
+#privateArea h1, input{
+    text-align: center;
+    margin: auto;
+}
+
+#title{
+    display:flex;
+    padding-top: 3%;
+    color: #74EF7E;
+    font-size: 70px;
+    font-family: 'Baloo', cursive;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.header{
+    display: flex;
+    padding-left:30px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(#5F79EA, #1DE2DA);
+    text-decoration: none;
+}
+.ResultsForm{
+    height: 200px;
+
+}
+.MainReviews{
+    border-top: 2px solid;
+    padding-bottom: 20px;
+}
+.MainReviews h1{
+    text-align: center;
+}
+.Reviews{
+    display:flex;
+    padding:40px;
+}
+
+.pik{
+    height: 202px;
+    width: 400px;
+}
+.text{
+    padding: 30px;
+}
+.ResultsForm{
+    display: flex;
+    padding-bottom: 90px;
+}
+.Re{
+    padding-left: 120px;
+}
+.contAddress{
+    width: 20%;
+    text-align: left;
+    padding:45px;
+    margin-top: 30px;
+}
+.contReview{
+    width: 60%;
+    text-align: left;
+    padding: 20px;
+    padding-left: 10px;
+}
+
+.Nodata{
+    text-align: center;
+    color: red;
+    padding: 30px;
+}
+
+/* End Reviews*/
+
+/* Private Area Page*/
+.Private{
+    padding-bottom: 20px;
+}
+
+.Private h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.form2{
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+#TArea{
+    height: 180px;
+    width: 500px;
+    font-size: 12px;
+}
+
+#fname, #address, #eircode{
+    height: 20px;
+}
+
+#acceptP{
+    width: 120px;
+    height: 20px;
+    margin-right:-30px;
+}
+
+.check{
+    display: flex;
+}
+
+label{
+    margin-top: 10px;
+}
+
+#ContainerReview{
+    display: flex;
+    border-top: 2px solid;
+
+}
+.pictureDublin{
+    height: 400px;
+    padding: 80px;
+}
+
