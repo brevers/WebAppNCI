@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css?v=<?php echo time();?>">
 </head>
 <body>
+
     <div class="header">
     <a href="index.php"><h1 id = "title">RR</h1></a>
     <h1 id = "title">Rental Rate</h1>
