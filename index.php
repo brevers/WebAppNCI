@@ -21,7 +21,7 @@
             <div class="indexOpt">
                 <div>
                     <h2>Login</h2>
-                    <input type="email" name="userEmail"  placeholder="your e-mail">
+                    <input type="email" name="userEmail" placeholder="your e-mail">
                     <input type="password" name="userPass"  placeholder="Your password">
                     <input type="submit" value="Login">
                     <a href="register.php">Still not registered?<strong> Sign-up Here!</strong></a>
