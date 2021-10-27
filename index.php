@@ -29,7 +29,7 @@
              </div>
         </form>
             <div class="indexOpt">
-                <input type="submit" value="See Reviews" onclick="window.location.href='reviews.php'">
+                <input type="submit" value="See Reviews" onclick= " window.location.href='reviews.php'">
             </div>
     </div>
 <?php
